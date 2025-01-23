@@ -11,9 +11,9 @@
             Console.WriteLine(a);
 
             string inputS = Console.ReadLine();
-            capitalize inputt = new capitalize();
-            string b =inputt.Capitalize(inputS);
-            Console.WriteLine(b);
+            capitalize capitalizedinput = new capitalize();
+            string result = capitalizedinput.Capitalize(inputS);
+            Console.WriteLine(result);
 
         }
     }

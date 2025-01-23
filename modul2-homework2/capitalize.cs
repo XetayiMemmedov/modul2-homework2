@@ -10,7 +10,7 @@ namespace modul2_homework2
     {
         internal string Capitalize(string inputS)
         {
-            inputS = char.ToUpper(inputS[0])+inputS.Substring(1).ToLower();
+            inputS = char.ToUpper(inputS[0])+ inputS.Substring(1).ToLower();
             return inputS;
         }
     }
